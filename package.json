@@ -1,6 +1,14 @@
 {
-  "type": "module",
+  "name": "meu-projeto",
+  "version": "1.0.0",
+  "description": "Descrição do projeto",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js"
+  },
   "dependencies": {
-    "decimal.js": "^10.4.3"
+    "url": "^0.11.0",
+    "path": "^0.12.7"
   }
 }
